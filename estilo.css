@@ -98,6 +98,10 @@ a{color:inherit}img{max-width:100%;height:auto;display:block}
 .parc-nota{margin:14px 0 0;color:var(--tinta-2)}
 .parc-fim{background:var(--rosa,#ff0498);color:#fff;border-radius:28px;padding:28px 24px;display:grid;gap:10px;justify-items:start}.parc-fim h2{color:#fff;margin:0}.parc-fim p{margin:0;font-size:17px}
 .parc-fim .btn{background:#fff;color:var(--roxo)}
+.parc-trilhas{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px}
+.parc-trilha{display:grid;gap:8px;background:var(--cartao);border:1px solid var(--linha);border-radius:24px;padding:24px;text-decoration:none;color:var(--tinta)}
+.parc-trilha h3{margin:0;font-family:var(--display);color:var(--roxo);font-size:24px}.parc-trilha p{margin:0;color:var(--tinta-2);line-height:1.5}
+.parc-trilha span{font-weight:800;color:var(--rosa)}.parc-outras{color:var(--tinta-2);font-size:15px}.parc-outras a{color:var(--roxo);font-weight:700}
 .parc-form{display:grid;gap:14px;width:100%}.parc-campos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:12px}
 .parc-campos label{display:grid;gap:5px;font-weight:700;font-size:14px;min-width:0}.parc-campos .largo{grid-column:1/-1}
 .parc-campos input,.parc-campos select,.parc-campos textarea{font:inherit;font-weight:400;font-size:16px;color:var(--tinta);background:#fff;border:0;border-radius:14px;padding:11px 13px;width:100%;box-sizing:border-box}
